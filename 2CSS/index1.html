@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="cssfile.css">
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Contect</a>
+        <a href="#">About</a>
+        <a href="#">Home</a>
+    </nav>
+    <h1>Registration Form</h1>
+    <form action="">
+        <fieldset>
+            <legend>UserInfo</legend>
+            <div id="userinfo">
+                <label for="name"><b>Name:</b></label> <br>
+                <input type="text" placeholder="Enter your Name"><br><br>
+                <label for="mobile"><b>Mobile Number:</b></label> <br>
+                <input type="number" placeholder="Enter Your Mobile Number"><br><br>
+                <label for="Pass"><b>Password:</b></label> <br>
+                <input type="password" placeholder="Enter Your Password">
+
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional Info</legend>
+            <div>
+                <label for="Gen"><b>Gender:</b></label><br>
+                <input type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female
+                <input type="radio" name="Gender">Others
+                
+            </div><br><br>
+
+            <div>               
+                 <label for="mode"><b>Class Mode:</b></label><br>
+                <input type="checkbox" name="mode"> Online
+                <input type="checkbox" name="mode">Offline
+            </div><br><br>
+
+            <div>
+                <label for="cou"><b>Course:</b></label> <br>
+                <select name="" id="">
+                    <option value="Java">Java</option>
+                    <option value="Python">Python</option>
+                    <option value="MERN">MERN</option>
+                    <option value="C++">C++</option>
+                </select>
+            </div><br><br>
+
+            <div>
+                <label for=""><b>Address:</b></label><br>
+                <textarea name="address" id="" widht="200" height="300"></textarea>
+            </div>
+        </fieldset>
+        <center><button>Submit</button></center>
+    </form>
+</body>
+</html>

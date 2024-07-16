@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+
+    <form action="https://www.google.com">
+        <!-- <img src="img1.jpg" alt=""> -->
+        <fieldset id="userinfo">
+           <legend>UserInfo</legend>
+           <div>
+            <label for="name">Name</label>
+            <input type="text" id="Name" name="name" placeholder="Enter your Name">
+           </div>
+           <div>
+            <label for="num">Mobile</label>
+            <input type="number" id="Number" name="name" placeholder="Enter Your Number">
+           </div>
+           <div>
+            <label for="pass">Password</label>
+            <input type="password" id="Password" name="pass" placeholder="Enter your Password">
+           </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional_Info</legend>
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+                <input type="radio" name="gender" value="others">Others
+            </div>
+
+            <div>
+                <label for="mode">Class Mode:</label>
+                <input type="checkbox" name="mode" value="">Online
+                <input type="checkbox" name="mode" value="">Offline
+            </div>
+
+            <div>
+                <label for="course">Course</label>
+                <select name="select" id="">
+                    <option value="C++">C++</option>
+                    <option value="Java">Java</option>
+                    <option value="Python">Python</option>
+                    <option value="C#">C#</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="address">Address</label>
+                <textarea name="address" id=""></textarea>
+            </div>
+        </fieldset>
+
+        <center><button>Submit</button></center>
+    </form>
+
+</body>
+</html>
